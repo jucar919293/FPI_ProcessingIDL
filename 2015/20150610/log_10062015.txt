@@ -1,0 +1,77 @@
+/data/01-FPIdata/01-MRH/2015/06-Jun/20150610/Graph_Results 10 Jun-2015-Laser-(InterpLaser)(Weighted average).ps
+DANGER!!: CCD temperature hotter than -70 in :
+ 18.15 /data/01-FPIdata/01-MRH/2015/06-Jun/20150610/Images/MRH_D_20150610_230848_001.img  -68.0
+ 18.14 /data/01-FPIdata/01-MRH/2015/06-Jun/20150610/Images/MRH_B_20150610_230840_001.img  -67.0
+ 18.15 /data/01-FPIdata/01-MRH/2015/06-Jun/20150610/Images/MRH_D_20150610_230848_001.img  -68.0
+No hotter image than -75
+Looking for angles in the X image
+{       102.60000    -0.033333302}
+{       12.766666      -50.166668}
+{       102.60000       50.166668}
+{       45.033333      -45.000000}
+{       89.833336      -45.000000}
+{       134.83333      -44.966667}
+{       147.46666       39.933334}
+Looking for complements ie [az,ze]=[az-180,-ze]
+{       102.60000    -0.033333302}
+{       12.766666      -50.166668}
+{       102.60000       50.166668}
+{       45.033333      -45.000000}
+{       89.833336      -45.000000}
+{       134.83333      -44.966667}
+{       147.46666       39.933334}
+ID : MRH
+KINST :         5145
+CEDARID : jfp
+CMANGLES : (0,0),(90.,45.),(-90.,-45.),(90.,-45.),(-90,45),(0.,45.),(0.,-45.)
+CMREALANGLES : (0,0),(90,45),(270,45),(0,45),(180,45)
+CMEXPDESC : zenith,east,east,west,west,north,south
+CVANGLES : (0,0),(105.7,51.8),(147,40),(12.7,-50)
+CVREALANGLES : (0,0),(105.7,51.8),(147,40),(12.7,-50)
+CVEXPDESC : zenithcvlos,eastcvlos_mrhnzk,inlinecvlos_mrhnzk,westcvlos_mrhnzk
+CODES_2DLOS : 3117,3134,-3134,3130,-3130,3132,-3132,130,140,2400
+CODES_1DLOS : 3116,-3116,3118,-3118,3120,-3120,130,140,2400
+CODES_1DHOR : 3118,-3118,3120,-3120,3139,-3139,130,140,2400
+FREQUENCY : 630,557.7
+LASERFREQ :        632.80000
+ANGLETOL :        5.0000000
+PIXEL_WIDTH :           24
+SPACER_GAP :        1.5000000
+N_PEAKS :            7
+LASER_RANGE :            9
+CAL_FACTOR :            1
+EIGHT_DIRECTIONS_FLAG : N
+K_PTS :           47
+CARDINAL : (90,45)(90,-45)(0,45)(0,-45)
+COMMONVOLUME : (200,200)
+NOTES : upgraded9rings,3ringsbefore),E,W,N,S(reversedanglesbeforeupgraded)
+PATHINSERVER : fpiuser@jro-app.igp.gob.pe:./data/MRH/FPI
+PATHINDESTINY : /data/01-FPIdata/01-MRH
+CMDOUTSIDESERVER : lftp-uuser-fpi,soporte-e"cd/share_data/FPI-CARDINALMODE/stationid;putsource;quit"jro-ftp.igp.gob.pe
+OTROSSSSSSSS : scp-P6633sourcegeodatos@jro-db.igp.gob.pe:/home/geodatos/fpidata/experiment
+DATE : Wed 10 Jun  2015
+START_TIME : 18:08:40.95
+END_TIME : 05:43:07.58
+B_IMAGES :            2
+K_IMAGES :            1
+D_IMAGES :            2
+L_IMAGES :           23
+X_IMAGES :          211
+G_IMAGES :            0
+RED LINE
+      0: Azimuth:    102.60 Zenith:   -0.03 ->   21 data points
+      1: Azimuth:     12.77 Zenith:  -50.17 ->   22 data points
+      2: Azimuth:    102.60 Zenith:   50.17 ->   21 data points
+      3: Azimuth:     45.03 Zenith:  -45.00 ->   21 data points
+      4: Azimuth:     89.83 Zenith:  -45.00 ->   21 data points
+      5: Azimuth:    134.83 Zenith:  -44.97 ->   84 data points
+      6: Azimuth:    147.47 Zenith:   39.93 ->   21 data points
+GREEN LINE
+--><-- NO RED POINTS IN FILE
+Cardinal group  0 :
+Azimuth:  89.83 Zenith: -45.00
+There is no CV angles
+Finished Graphics.
+/data/01-FPIdata/01-MRH/2015/06-Jun/20150610/MRH10062015_LOS_Laser(Weighted average).txt
+/data/01-FPIdata/01-MRH/2015/06-Jun/20150610/MRH10062015_ZMLOS_Laser(Weighted average).txt
+/data/01-FPIdata/01-MRH/2015/06-Jun/20150610/MRH10062015_ZM_Laser(Weighted average).txt

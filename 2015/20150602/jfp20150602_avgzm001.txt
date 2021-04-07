@@ -1,0 +1,254 @@
+    23  2101  5145  7150  2015   602  2311  3000  2015   603  1040  5400     0     0     0     0     0     0     0     0
+TIMCY         60 minutes
+IBYRE       2015 Beginning year
+IBDTE        602 Beginning month and day
+IBHME       2311 Beginning UT hour and minute
+IBCSE       3000 Beginning centisecond
+IEYRE       2015 Ending year
+IEDTE        603 Ending month and day
+IEHME       1040 Ending UT hour and minute
+IECSE       5400 Ending centisecond
+CPURP    A FPI instrument points to the four cardinal points East, West,
+CPURP    North, South to make possible
+CPURP    the estimation of the horizontal neutral wind over the zonal and
+CPURP    meridional directions.
+CPI      .................................................................
+CPI      John Meriwether
+CPI      Clemson University
+CPI      E-mail: john.meriwether@ces.clemson.edu
+CPI      -------------------------------------------
+CPI      Marco Milla
+CPI      Jicamarca Radio Observatory
+CPI      E-mail: marco.milla@jro.igp.gob.pe
+CPI      .................................................................
+   121  3101  5145  7150  2015   602  2311  3000  2015   603  1040  5400    40    11     0     0     0     0     0     0
+CKINDAT This header is for KINDAT = 7150
+CKINDAT FPI wind vector calculation (reference: normalized laser to zenith):
+CKINDAT Preliminary results
+CHIST   --The data provided on this file came from an Fabry-Perot
+CHIST   Interferometry network deployed at three different location where were
+CHIST   constructed three different optical stations.
+CHIST   --The older one is the Arequipa Automatic Airglow Observatory or afp
+CHIST   (kinst=5140). This station is inside the NASA Tracking Station at
+CHIST   Arequipa, Peru and is operated by JRO and UNSA, Universidad Nacional
+CHIST   San Agustin. The data is processed by JRO and Dr. John Meriwether from
+CHIST   Clemson University.
+CHIST   --Other stations are Jicamarca Optical Station jfp (kinst=5145) and
+CHIST   Movil Optical Station mfp (kinst=5150). The first one is the one
+CHIST   located in a hill near from Jicamarca Radio Observatory and
+CHIST   overlooking the main radar. This was deployed at 2009. The other one
+CHIST   is the movil station which was deployed in test mode at Nazca, Peru at
+CHIST   November 2010. Finally it was relocated to Nazca, Peru at Early
+CHIST   February and is taking data. This movil station is a truck whith the
+CHIST   Fabry-Perot Interferometer mounted inside.
+CHIST   --More definitions, more more about parameters and supervision tools.
+CHIST   --More about the instrumentation.
+CHIST   Station _______ Geographic Coord
+CHIST   ____________ Latitude _ Longitude
+CHIST   aqf _________16.47 S ___ 71.49 W
+CHIST   jfp _________11.96 S ___ 76.86 W
+CHIST   mfp _________14.97 S ___ 74.89 W
+CHIST   .................................................................
+CHIST   For more information, consult the following references:
+CHIST   - Biondi, M. A., J. W. Meriwether Jr., B. G. Fejer, S. A. gonzales,
+CHIST   and D. C. Hallenbeck, Equatorial thermospheric wind changes during
+CHIST   solar cycle: Measurements at Arequipa, Peru, from 1993 to 1990,
+CHIST   Journal of Geophys. Res., 96, 15, 917-15, 931, 1991. (Correction, J.
+CHIST   Geophys. Res., 100, 7863, 1995.)
+CHIST   - Meriwether, J. W., M. A. Biondi, F. A. Herrero, C. G. Fesen, and D.
+CHIST   C. Hallenbeck. Optical interferometric studies of the nighttime
+CHIST   equatorial thermosphere: Enhanced temperatures and zonal wind
+CHIST   gradients, Journal of Geophys. Res., 102, 20, 041-20, 058, 1997.
+CHIST   - Biondi, M. A., S. Y. Sazykin, B. G. Fejer, J. W. Meriwether, and C.
+CHIST   G. Fesen, Equatorial and low latitude thermospheric winds: Measured
+CHIST   quiet time variations with season and solar flux from 1980 to 1990, J.
+CHIST   Geophys. Res., 104 17, 091-17, 106, 1999
+CHIST   - J. Meriwether , M. Faivre , C. Fesen , P. Sherwood, and O. Veliz.
+CHIST   New results on Equatorial Thermospheric Winds and the Midnight
+CHIST   Temperature Maximum, Annales Geophysicae, 26:447-466,2008
+CHIST   - Flores, Sthy. Bidimensional Treatment of Fabry-Perot Interferograms
+CHIST   to measure winds and temperatures. Tesis (Master of Science Degree on
+CHIST   Applied Physics). Lima, Peru, Pontificia Universidad Catolica del
+CHIST   Peru, Escuela de Graduados, 2008.
+CHIST   - Hernandez, G., Fabry-Perot interferometers, Cambridge and New York:
+CHIST   Cambridge University Press (Cambridge Studies in Modern Optics, No.
+CHIST   3), 1986
+CHIST   .................................................................
+CHIST   ACKNOWLEDGEMENTS:
+CHIST   --The constructions of the Jicamarca and movil Fabry-Perot
+CHIST   Interferometers were deployed with support of Dr. John Meriwether from
+CHIST   the Department of Physics and Astronomy, Clemson University, Jicamarca
+CHIST   Radio Observatory and NSF Cooperative Agreement ATM ???
+CHIST   --The construction of Arequipa Fabry-Perot was deployed with support
+CHIST   of Manfred Biondi from the Department of Physics and
+CHIST   Astronomy,University of Pittsburgh, NSF Cooperative Agreement ATM???,
+CHIST   Universidad Nacional San Agustin, Arequipa-Peru and NASA Tracking
+CHIST   Station
+CHIST   --The Jicamarca, Arequipa and movil Fabry-Perot Interferometers are
+CHIST   operated as a part of the network of instruments operated by the
+CHIST   Jicamarca Radio Observatory.
+CHIST   --The Jicamarca Radio Observatory is a facility of the Instituto
+CHIST   Geofisico del Peru operated with support from the NSF Cooperative
+CHIST   Agreement ATM-0432565 through Cornell University
+CHIST   .................................................................
+CHIST   Further questions and comments should be addressed to:
+CHIST   Marco Milla
+CHIST   Radio Observatorio de Jicamarca
+CHIST   Instituto Geofisico del Peru
+CHIST   Apartado 13-0207
+CHIST   Lima, Peru
+CHIST   Phone: (51)-1-3172313 Fax: (51)-1-3172312
+CHIST   E-mail: marco.milla@jro.igp.gob.pe
+CHIST   .................................................................
+IBYRT               2015 Beginning year
+IBDTT                602 Beginning month and day
+IBHMT               2311 Beginning UT hour and minute
+IBCST               3000 Beginning centisecond
+IEYRT               2015 Ending year
+IEDTT                603 Ending month and day
+IEHMT               1040 Ending UT hour and minute
+IECST               5400 Ending centisecond
+C 1D Parameters:
+KODS(0)       17    2400 Wavelength                             1E-01   nm
+KODS(1)       18    3122 Averaged Vertical wind per cycle       1E+00   m/s
+KODS(2)       19   -3122 Error in Averaged Vertical wind per cy 1E+00   m/s
+KODS(3)       20    3123 Additional increment for Averaged Vert 1E-04   m/s
+KODS(4)       21   -3123 Error in Additional increment for Aver 1E-04   m/s
+KODS(5)       22    3124 Averaged Zonal wind per cycle          1E+00   m/s
+KODS(6)       23   -3124 Error in Averaged Zonal wind per cycle 1E+00   m/s
+KODS(7)       24    3125 Additional increment for Averaged Zona 1E-04   m/s
+KODS(8)       25   -3125 Error in Additional increment for Aver 1E-04   m/s
+KODS(9)       26    3126 Averaged Meridional wind per cycle     1E+00   m/s
+KODS(10)      27   -3126 Error in Averaged Meridional wind per  1E+00   m/s
+KODS(11)      28    3127 Additional increment for Averaged Meri 1E-04   m/s
+KODS(12)      29   -3127 Error in Additional increment for Aver 1E-04   m/s
+KODS(13)      30    3128 Averaged Temperature of neutrals/cycle 1E+00   K
+KODS(14)      31   -3128 Error in Averaged Temperature of neutr 1E+00   K
+KODS(15)      32    3129 Additional increment Average Temperatu 1E-02   K
+KODS(16)      33   -3129 Error in Additional increment Average  1E-02   K
+KODS(17)      34    3130 Averaged Intensity of neutrals         1E+00   Coun
+KODS(18)      35   -3130 Error in Averaged Intensity of neutral 1E+00   Coun
+KODS(19)      36    3131 Additional increment Average Intensity 1E-02   Coun
+KODS(20)      37   -3131 Error in Additional increment Average  1E-02   Coun
+C       FOR Arequipa station ONLY: Temperature is affected by OH signal
+C       contamination due to the spacer gap of the etalon (1.5cm) which ends
+C       into hotter temperatures. In order to subtract this offset, we
+C       recommend comparing the temperature estimates for this station with
+C       the estimates obtained for the other stations NZK and MRH.
+CANALYST .................................................................
+CANALYST Jose Gamboa
+CANALYST Radio Observatorio de Jicamarca
+CANALYST Instituto Geofisico del Peru
+CANALYST E-mail: jose.gamboa@jro.igp.gob.pe
+CANALYST .................................................................
+CANDATE  Wed Jun 03 14:07:15 2015 UT
+     5  1101  5145  7150  2015   602  2311  3000  2015   602  2348     0    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    57  5164     7  9632   -12 -1023     7  4398   -22 -4014     1  3474   950    58    21     5   791    32     8     1
+  6300
+     5  1101  5145  7150  2015   602  2348     0  2015   603    20  1700    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    59  3668    24  6601   -29 -6126     7  8744   -19 -1995     1  1221   874    74    41    60   321    79     6    41
+  6300
+     5  1101  5145  7150  2015   603    20  1700  2015   603    52  3300    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    88  6806    29    14    -1 -4232    12  4055    -3 -3771     6  5809   723    52    41    90   236    75     5    12
+  6300
+     5  1101  5145  7150  2015   603    52  3300  2015   603   124  5000    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    74  5248    26  5588   110  3486     4  8357   -58  -671     8  7422   749    44    32    62   304    46     5    24
+  6300
+     5  1101  5145  7150  2015   603   124  5000  2015   603   157   600    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    -8 -9537    64  9594     2  1594    78  2224   -20 -9959    31  7902   795    65    20    51   551    17     5    79
+  6300
+     5  1101  5145  7150  2015   603   157   600  2015   603   229  2300    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    63  4350    43  2966    93  2426    55  2354   -21 -9478    30  3551   797    33    12    99   908    53     5    86
+  6300
+     5  1101  5145  7150  2015   603   229  2300  2015   603   301  4000    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    61   709    11  4131    93  1213     7  1048   -18 -7589     4   112   782    53     9    47  1308    38     6     6
+  6300
+     5  1101  5145  7150  2015   603   301  4000  2015   603   333  5800    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    64  8493     8   623   103  2190     0  3284   -42 -2358     1  3695   803    98    11     1  1345    63     7    19
+  6300
+     5  1101  5145  7150  2015   603   333  5800  2015   603   406  1600    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    26   451    15  2275   -34 -1557    12  7697   -11 -7188     2  7668   720    85    26     9   664    56     9    10
+  6300
+     5  1101  5145  7150  2015   603   406  1600  2015   603   438  3400    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    71  1361    18  5615    34   729    12   557     7  9478     2  1938   691    11    31    59   501    99     8    41
+  6300
+     5  1101  5145  7150  2015   603   438  3400  2015   603   510  5200    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    38  6787    31   829   -35 -1612     5  3978    -3 -5825    10  7587   616    12    38    17   365    39     7    82
+  6300
+     5  1101  5145  7150  2015   603   510  5200  2015   603   543  1100    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+   -46 -6782    41   356  -120 -3727    10  7702    59  2199    10  1644   551    74    50    12   245    65     7    42
+  6300
+     5  1101  5145  7150  2015   603   543  1100  2015   603   615  2900    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    99  9980    55  7477    54  1378    25  6956   -82 -2636    14  7340   489    29    72    82   150    56     6    75
+  6300
+     5  1101  5145  7150  2015   603   615  2900  2015   603   647  4700    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+   -59 -6180    45  4976   -96 -9970    68  5753    55  9197     0  4130   380     3   100    95   101    55     6    13
+  6300
+     5  1101  5145  7150  2015   603   647  4700  2015   603   720   400    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+   -42 -8010    85    66  -116  -976    27  2541   -64 -1508    29  1802   393    86   113    45    83    66     5    41
+  6300
+     5  1101  5145  7150  2015   603   720   400  2015   603   752  2100    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    89  3780   159  2943   160   558    81  1887  -209 -6464    32  3554   379    95   140    52    60    77     4    82
+  6300
+     5  1101  5145  7150  2015   603   752  2100  2015   603   824  3900    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+   -80 -9082    58  3963   -16 -6853   103  9995    13  5981    49  2067   341    60   167    91    52    66     4    13
+  6300
+     5  1101  5145  7150  2015   603   824  3900  2015   603   856  5500    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+   189  5340   159  4350   154  5951    46  2807  -113 -4260    45  4675   295    46   156    42    45    92     3    94
+  6300
+     5  1101  5145  7150  2015   603   856  5500  2015   603   929  1200    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+   106   678   366   949   228  6086   269  8886   -14 -5801   207  3097   337    34   237    98    28    33     3    43
+  6300
+     5  1101  5145  7150  2015   603   929  1200  2015   603  1001  2800    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+  -183 -4669   220  3417  -265 -1278    44  1568    42  5896   217  3181   425    88   243    75    28    59     3    34
+  6300
+     5  1101  5145  7150  2015   603  1001  2800  2015   603  1033  4500    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+    43   831    63  6793    20  3623     8  4486    53  8763     9  8089   634    86    67    50    92    75     3    99
+  6300
+     5  1101  5145  7150  2015   603  1033  4500  2015   603  1040  5400    16    21     0     0
+  3122  3123 -3122 -3123  3124  3125 -3124 -3125  3126  3127 -3126 -3127  3128  3129 -3128 -3129  3130  3131 -3130 -3131
+  2400
+   254  7636    91  9484  -249 -7409   215  4248  -581 -9436   236  5784   746    30    67    46   299    22    10    30
+  6300

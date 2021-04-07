@@ -1,0 +1,20 @@
+Publication in /data/01-FPIdata/01-MRH/2015/06-Jun/20150612
+Madrigal file created: /data/01-FPIdata/01-MRH/2015/06-Jun/20150612/jfp20150612_lineofsights001.txt
+writing madrigal file jfp20150612_lineofsights001.txt
+writing header and catalog to file
+################################
+[ 18.21    18.8186  19.3572  19.8954  20.4338  20.9721  21.5105  22.0487
+  22.5872  23.1253  23.6638  24.2023  24.7407  25.2794  25.8176  26.3559
+  26.8943  27.4327  27.9712  28.5096  29.0481  29.5864]
+Madrigal file created: /data/01-FPIdata/01-MRH/2015/06-Jun/20150612/jfp20150612_avgzm001.txt
+writing madrigal file jfp20150612_avgzm001.txt
+writing header and catalog to file
+FPI-Cardinal Mode
+Record generated: /data/01-FPIdata/01-MRH/2015/06-Jun/20150612/jfp20150612_lineofsights001.txt
+Record generated: /data/01-FPIdata/01-MRH/2015/06-Jun/20150612/jfp20150612_avgzm001.txt
+Record uploading: /data/01-FPIdata/01-MRH/2015/06-Jun/20150612/jfp20150612_lineofsights001.txt
+lftp -u user-fpi,soporte -e "cd /share_data/FPI-CARDINALMODE/'MRH';put /data/01-FPIdata/01-MRH/2015/06-Jun/20150612/jfp20150612_lineofsights001.txt;quit" jro-ftp.igp.gob.pe
+
+Record uploading: /data/01-FPIdata/01-MRH/2015/06-Jun/20150612/jfp20150612_avgzm001.txt
+lftp -u user-fpi,soporte -e "cd /share_data/FPI-CARDINALMODE/'MRH';put /data/01-FPIdata/01-MRH/2015/06-Jun/20150612/jfp20150612_avgzm001.txt;quit" jro-ftp.igp.gob.pe
+

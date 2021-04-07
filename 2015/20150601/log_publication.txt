@@ -1,0 +1,24 @@
+Publication in /data/01-FPIdata/01-MRH/2015/06-Jun/20150601
+Madrigal file created: /data/01-FPIdata/01-MRH/2015/06-Jun/20150601/jfp20150601_lineofsights001.txt
+writing madrigal file jfp20150601_lineofsights001.txt
+writing header and catalog to file
+################################
+[ 18.1891  18.7979  19.3362  19.8745  20.4129  20.9514  21.4901  22.0287
+  22.5674  23.1059  23.6446  24.1834  24.7222  25.261   25.7999  26.3387
+  26.8773  27.4157  27.9541  28.4924  29.0306  29.5689]
+Madrigal file created: /data/01-FPIdata/01-MRH/2015/06-Jun/20150601/jfp20150601_avgzm001.txt
+writing madrigal file jfp20150601_avgzm001.txt
+writing header and catalog to file
+FPI-Cardinal Mode
+Record generated: /data/01-FPIdata/01-MRH/2015/06-Jun/20150601/jfp20150601_lineofsights001.txt
+Record generated: /data/01-FPIdata/01-MRH/2015/06-Jun/20150601/jfp20150601_avgzm001.txt
+Record uploading: /data/01-FPIdata/01-MRH/2015/06-Jun/20150601/jfp20150601_lineofsights001.txt
+lftp -u luis.navarro,optics -e "cd /srv/ftp/luis.navarro/share_data/FPI/FPI-CARDINALMODE/'MRH';put /data/01-FPIdata/01-MRH/2015/06-Jun/20150601/jfp20150601_lineofsights001.txt;quit" jro-ftp.igp.gob.pe
+cd: Login failed: 530 Login incorrect.
+put: Login failed: 530 Login incorrect.
+
+Record uploading: /data/01-FPIdata/01-MRH/2015/06-Jun/20150601/jfp20150601_avgzm001.txt
+lftp -u luis.navarro,optics -e "cd /srv/ftp/luis.navarro/share_data/FPI/FPI-CARDINALMODE/'MRH';put /data/01-FPIdata/01-MRH/2015/06-Jun/20150601/jfp20150601_avgzm001.txt;quit" jro-ftp.igp.gob.pe
+cd: Login failed: 530 Login incorrect.
+put: Login failed: 530 Login incorrect.
+
