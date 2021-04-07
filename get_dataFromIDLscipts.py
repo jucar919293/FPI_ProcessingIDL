@@ -1,7 +1,7 @@
 from datetime import datetime
 import pandas as pd
 import numpy as np
-
+from FPIplot.utils import get_dateformat
 # Temporal date to test
 year = 2015
 month = 6
@@ -23,9 +23,8 @@ def select_data():
         angle1_column = []
         angle2_column = []
         # Calculating path
-        actual_day = datetime(year, month, day)
-        temporal_date = actual_day.strftime("%Y%m%d")
-        temporal_date_file = actual_day.strftime("%d%m%Y")
+        temporal_date = get_dateformat(year, month, day, "%Y%m%d")
+        temporal_date_file = get_dateformat(year, month, day, "%d%m%Y")
         temporal_file = "MRH" + temporal_date_file + "_LOS_Laser(Weighted average).txt"
         path_data = "./" + str(year) + "/" + temporal_date + "/" + temporal_file
 
