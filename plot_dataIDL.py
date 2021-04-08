@@ -1,7 +1,9 @@
 from FPIplot.utils import get_dateformat
 import pandas as pd
 import matplotlib.pyplot as plt
+from datetime import datetime
 import numpy as np
+import math
 
 year = 2015
 month = 6
@@ -30,10 +32,25 @@ def preprocess_data(path):
     return dic
 
 
+def convert_times(data, year, month, day):
+    times = []
+    for i in range(data.shape[0]):
+        frac, whole = math.modf(data.iloc[i])
+        minutes = int(frac*60)
+        if int(data.iloc[i]) >= 24:
+            hour = int(data.iloc[i])-24
+            real_day = day +1
+        else:
+            real_day = day
+            hour = int(data.iloc[i])
+        times.append(datetime(year, month, real_day, hour, minutes))
+    return times
+
+
 if __name__ == '__main__':
     colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k']
     fig, ax = plt.subplots()
-    ax.set_ylim((-150, 300))
+    ax.set_ylim((0, 1300))
     # ax.set_xlim((18, 21))
     for day in days:
         temporal_date = get_dateformat(year, month, day, "%Y%m%d")
@@ -41,7 +58,8 @@ if __name__ == '__main__':
         dic = preprocess_data(data_path_open_file)
         print(data_path_open_file)
         for mode, color in zip(dic, colors):
-            ax.scatter(mode.iloc[:, 0], mode.iloc[:, 1], s=5, c=color)
+            times = convert_times(mode.iloc[:, 0], year, month, day)
+            ax.scatter(times, mode.iloc[:, 2], s=5, c='blue')
 
     ax.legend()
     ax.grid(True)
