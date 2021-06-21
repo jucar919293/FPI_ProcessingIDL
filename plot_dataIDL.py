@@ -59,7 +59,7 @@ if __name__ == '__main__':
         print(data_path_open_file)
         for mode, color in zip(dic, colors):
             times = convert_times(mode.iloc[:, 0], year, month, day)
-            ax.scatter(times, mode.iloc[:, 2], s=5, c='blue')
+            ax.scatter(times, mode.iloc[:, 2], s=5, c=color, alpha=0.3)
 
     ax.legend()
     ax.grid(True)
